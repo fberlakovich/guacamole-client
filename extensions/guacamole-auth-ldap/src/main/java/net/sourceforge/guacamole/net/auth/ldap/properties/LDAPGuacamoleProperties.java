@@ -22,6 +22,7 @@
 
 package net.sourceforge.guacamole.net.auth.ldap.properties;
 
+import org.glyptodon.guacamole.properties.GuacamoleProperty;
 import org.glyptodon.guacamole.properties.IntegerGuacamoleProperty;
 import org.glyptodon.guacamole.properties.StringGuacamoleProperty;
 
@@ -34,6 +35,8 @@ import org.glyptodon.guacamole.properties.StringGuacamoleProperty;
  * @author Michael Jumper
  */
 public class LDAPGuacamoleProperties {
+
+
 
     /**
      * This class should not be instantiated.
@@ -92,5 +95,7 @@ public class LDAPGuacamoleProperties {
         public String getName() { return "ldap-hostname"; }
 
     };
+
+
 
 }
